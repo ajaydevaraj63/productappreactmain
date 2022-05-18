@@ -12,13 +12,13 @@ function App() {
   return (
    <>
   
-  <BrowserRouter>
+  { <BrowserRouter>
   <Routes>
   <Route path="/" exact element={<Addproduct/>}></Route>
   <Route path="/search" exact element={<Search/>}></Route>
   <Route path="/view" exact element={<View/>}></Route>
   </Routes>
-  </BrowserRouter>
+  </BrowserRouter> }
    
   </>
   );
